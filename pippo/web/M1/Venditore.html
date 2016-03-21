@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Venditore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Venditore del sito">
+        <meta name="author" content="Andrea Corpino">
+    </head>
+    <body>
+        
+        <!-- Permetto all utente inserire un titolo di un film  -->
+        <form action="Venditore.html" method="get"> Inserisci il Titolo del Film </form>
+        <input type="text" value="" />
+        <br/>
+        
+        <!-- Permetto all utente inserire l'url dll'immagine di una copertina del DVD scelto -->
+        <form>
+        Inserisci url dell'immagine del DVD
+        <input type="url" >
+        </form>
+        
+        <!-- Permetto all utente inserire descrivere brevemente la trama del DVD -->
+        <form>
+            Descrizione del Film
+            <textarea rows="4" cols="20">
+            
+            </textarea> 
+        </form>
+        
+        <!-- Permetto all utente di inserire il prezzo del DVD scelto -->
+        <form>
+        Prezzo DVD
+        <input type="number"  min="0" max="50" step="0.01" value="0.01">
+        </form>
+        
+        <!-- Permetto all utente di scegliere la quantità di DVD da rilasciare, partendo da un massimo di 20 -->
+        <form>
+            Quantit&agrave; DVD
+        <input type="number"  min="0" max="20" step="1" value="20">
+        </form>
+        
+        <!--Creo un bottone -->
+        <button type="submit">Conferma e invia</button>
+        
+        <!-- Permetto all utente di andare nelle sezioni che desidera tramite dei link esterni -->
+        <nav>
+              <a href="Descrizione.html"> Vai alla descrizione!!</a>
+        </nav>
+        
+        <nav>
+              <a href="Login.html"> Vai alla sezione login!!</a>
+        </nav>
+        
+    </body>
+</html>
